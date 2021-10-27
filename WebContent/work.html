@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>t1</title>
+
+</head>
+
+<body>
+
+<p>List:</p>
+
+<ul class="ab">
+
+<li class="ab">Apple</li>
+
+<li class="ab">Grapes</li>
+
+<li class="xy">Oranges</li>
+
+<li class="xy">Pear</li>
+
+</ul>
+
+<input type="button" value="clickkkk" onClick="show()"/>
+
+<p id="demo"></p>
+
+<script>
+
+function show(){
+
+  var x=document.getElementsByClassName("ab")[0];
+  console.log(x);
+
+x.getElementsByClassName("xy")[1].innerHTML="Banana";
+
+}
+
+</script>
+
+</body>
+
+</html>
